@@ -177,3 +177,15 @@ int main(int argc, char *argv[])
     }
     exit(0);
 }
+
+/*
+TESTED WITH:
+$ ./executable 2 4 10 8 0
+$ ./executable 2 4 10 8 1
+$ ./executable 3 4 5 8 1
+$ ./executable 10 4 5 8 0
+$ ./executable 16 16 10 8 2
+$ ./executable 16 16 10 8
+$ ./executable 17 10 10 8 2
+$ ./executable 10 17 10 8 2
+*/
